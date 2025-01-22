@@ -1,0 +1,26 @@
+[
+    {
+        "service": "Round-the-Clock Services",
+        "description": "24/7 care for emergencies and regular medical needs."
+      },
+      {
+        "service": "Expert Medical Team",
+        "description": "Skilled professionals, including Dr. Yp Gautam, for you trusted care."
+      },
+      {
+        "service": "Advanced Treatment Options",
+        "description": "Modern equipment and procedures for accurate diagnoses and effective treatments."
+      },
+      {
+        "service": "Affordable Healthcare Packages",
+        "description": "Cost-effective options designed to suit every patient’s budget."
+      },
+      {
+        "service": "Focus on Patient Comfort",
+        "description": "Compassionate care with personalized attention to ensure your well-being."
+      },
+      {
+        "service": "Emergency and Trauma Care",
+        "description": "Specialized services for urgent and critical medical conditions."
+      }
+]
