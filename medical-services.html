@@ -37,44 +37,24 @@
   <div id="main-wrapper" class="main-wrapper overflow-hidden">
 
     <!-- Header Area Start -->
-    <header class="header position-absolute">
+    <header class="header">
       <div class="container">
         <nav class="navbar upper d-flex">
-          <a class="navbar-brand d-lg-none" href="index-2.html">
-            <img alt="" src="assets/media/brand-logo.png">
-          </a>
-          <a class="navbar-brand d-lg-block d-none" href="index-2.html"><img alt="" src="assets/media/brand-logo.png"></a>
+          <a class="navbar-brand d-lg-block d-none" href="index.html"><img alt="" src="assets/media/brand-logo.png"></a>
           <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse" id="mynavbar">
               <ul class="navbar-nav mainmenu m-0">
                 <li class="menu-item">
-                  <a href="index-2.html">Home</a>
+                  <a href="index.html" class="active">Home</a>
                 </li>
                 <li class="menu-item">
                   <a href="about.html">About Us</a>
                 </li>
-                <li class="menu-item-has-children">
-                  <h6><a href="javascript:void(0);" class="active">Services</a></h6>
-                  <ul class="submenu">
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="services-detail.html" class="active">Service Detail</a></li>
-                    <li><a href="appointment.html">Appointment</a></li>
-                  </ul>
+                <li class="menu-item">
+                  <h6><a href="services.html">Services</a></h6>
                 </li>
-                <li class="menu-item-has-children">
-                  <h6><a href="javascript:void(0);">Pages</a></h6>
-                  <ul class="submenu">
-                    <li><a href="blogs.html">Blog</a></li>
-                    <li><a href="blog-2.html">Blog 2</a></li>
-                    <li><a href="blog-detail.html">Blog Detail</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="team-detail.html">Team Detail</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                    <li><a href="faqs.html">FAQ's</a></li>
-                    <li><a href="404.html">404</a></li>
-                  </ul>
+                <li class="menu-item">
+                  <h6><a href="contact.html">Contact Us</a></h6>
                 </li>
               </ul>
             </div>
@@ -102,7 +82,7 @@
         <div class="title-banner">
             <div class="container">
                 <div class="row">
-                    <h1 class="light-black">Service Detail</h1>
+                    <h1 class="light-black service-title">Service Detail</h1>
                 </div>
             </div>
         </div>
@@ -110,80 +90,44 @@
     
         <!-- Health Consultation Area Start -->
         <section class="health-consult p-120">
-            <div class="container">
-                <div class="row mb-48">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="content-area">
-                            <div class="title mb-16">
-                                <div class="img-circle">
-                                    <img src="assets/media/services/service-4.png" alt="">
-                                </div>
-                                <h2 class="light-black">Health Consultation</h2>
-                            </div>
-                            <p class="gray mb-24">Lorem ipsum dolor sit amet consectetur. Integer vulputate amet aliquet a
-                                tincidunt. Velit sapien scelerisque diam non
-                                dignissim posuere consectetur odio ac. </p>
-                            <p class="gray mb-24">Egestas nunc elementum tempor aliquam fringilla. Morbi magna eget morbi
-                                nibh eu massa volutpat et
-                                euismod. Nulla donec tempor aliquam morbi volutpat tellus urna vulputate blandit. Enim
-                                pellentesque et turpis
-                                libero. </p>
-                            <p class="gray mb-24">Ullamcorper gravida odio nibh auctor auctor neque morbi est phasellus.
-                                Tellus at gravida id. </p>
-                        </div>
+          <div class="container">
+            <div class="row mb-48">
+              <div class="col-xl-6 col-lg-6">
+                <div class="content-area">
+                  <div class="title mb-16">
+                    <div class="img-circle">
+                      <img id="service-img-circle" src="" alt="Service Icon">
                     </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="video-image">
-                            <img src="assets/media/services/ser_dtl-1.png" alt="" class="service_detail_img br-30">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" class="play-btn"><img src="assets/media/services/play-button.png" alt="" class="video-btn"></a>
-                        </div>
-                    </div>
+                    <h2 class="light-black service-subheading" >Service Title</h2>
+                  </div>
+                  <p id="service-description-1" class="gray mb-24">Description 1 goes here.</p>
+                  <p id="service-description-2" class="gray mb-24">Description 2 goes here.</p>
                 </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 mb-md-0 mb-24">
-                        <div class="advantages">
-                            <h4 class="light-black mb-24">Advantages</h4>
-                            <div class="advantage_text mb-16">
-                                <i class="fal fa-check"></i>
-                                <p class="gray">Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                            <div class="advantage_text mb-16">
-                                <i class="fal fa-check"></i>
-                                <p class="gray">Ultricies arcu sed tempor integer.</p>
-                            </div>
-                            <div class="advantage_text mb-16">
-                                <i class="fal fa-check"></i>
-                                <p class="gray">Vestibulum elit eu vulputate tristique enim mole.</p>
-                            </div>
-                            <div class="advantage_text mb-16">
-                                <i class="fal fa-check"></i>
-                                <p class="gray">Nulla aliquet tellus vel dictum tempus.</p>
-                            </div>
-                            <div class="advantage_text mb-16">
-                                <i class="fal fa-check"></i>
-                                <p class="gray">Ultricies arcu sed tempor integer.</p>
-                            </div>
-                            <div class="advantage_text">
-                                <i class="fal fa-check"></i>
-                                <p class="gray">Vestibulum elit eu vulputate tristique enim mole.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-8 col-lg-6 col-md-6">
-                        <h4 class="light-black mb-24">Health Care Plans</h4>
-                        <p class="gray mb-24">Lorem ipsum dolor sit amet consectetur. Integer vulputate amet aliquet a
-                            tincidunt. Velit sapien scelerisque diam non
-                            dignissim posuere consectetur odio ac. Egestas nunc elementum tempor aliquam fringilla. Morbi
-                            magna eget morbi nibh
-                            eu massa volutpat et euismod.</p>
-                        <p class="gray mb-24">Nulla donec tempor aliquam morbi volutpat tellus urna vulputate blandit. Enim
-                            pellentesque et
-                            turpis libero. Ullamcorper gravida odio nibh auctor auctor neque morbi est phasellus. Tellus at
-                            gravida id.</p>
-                    </div>
+              </div>
+              <div class="col-xl-6 col-lg-6">
+                <div class="video-image">
+                  <img id="service-detail-img" src="" alt="Service Detail Image" class="service_detail_img br-30">
                 </div>
+              </div>
             </div>
+            <div class="row">
+              <div class="col-xl-4 col-lg-6 col-md-6 mb-md-0 mb-24">
+                <div class="advantages">
+                  <h4 class="light-black mb-24">Advantages</h4>
+                  <div id="advantages-list">
+                    <!-- Advantages dynamically inserted here -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-8 col-lg-6 col-md-6">
+                <h4 class="light-black mb-24" id="health-plan-title">Health Care Plans</h4>
+                <p id="health-plan-1" class="gray mb-24">Health care plan details 1.</p>
+                <p id="health-plan-2" class="gray mb-24">Health care plan details 2.</p>
+              </div>
+            </div>
+          </div>
         </section>
+        
         <!-- Health Consultation Area End -->
         <div class="bg-wrapper service-detail">
     
@@ -475,6 +419,8 @@
 
   <!-- Site Scripts -->
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/services.js"></script>
+
 </body>
 
 </html>
