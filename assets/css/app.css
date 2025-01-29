@@ -1940,6 +1940,8 @@ input[type=radio]:checked {
   }
 }
 .header nav .navbar-brand {
+  width: 60px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2182,7 +2184,7 @@ input[type=radio]:checked {
   .navbar-collapse {
     min-width: 250px;
     position: absolute;
-    right: 0;
+    right: 100;
     top: 56px;
     background: #FFF;
     box-shadow: 2px 1px 5px 0px rgba(0, 22, 86, 0.06), 8px 4px 9px 0px rgba(0, 22, 86, 0.05), 17px 9px 12px 0px rgba(0, 22, 86, 0.03), 31px 15px 14px 0px rgba(0, 22, 86, 0.01), 49px 24px 15px 0px rgba(0, 22, 86, 0);
@@ -2280,6 +2282,10 @@ footer .footer_area .links-block .our-links ul li .details {
 }
 footer .footer_area .footer_center_area form {
   display: flex;
+}
+footer .footer_area .footer_center_area a img {
+  height: 60px;
+  width: auto;  
 }
 footer .footer_area .footer_center_area form button {
   position: absolute;
@@ -2977,11 +2983,11 @@ footer .footer_social_links {
   border-bottom-width: 0;
 }
 .app-table .time-table table tbody tr :nth-child(1) {
-  text-align: left;
+  text-align: right;
   border-top: 0;
 }
 .app-table .time-table table tbody tr :nth-child(2) {
-  text-align: center;
+  text-align: right;
 }
 .app-table .time-table table tbody tr :nth-child(3) {
   text-align: right;
