@@ -9,7 +9,7 @@ const services = {
         "We also provide rehabilitation services for post-surgical recovery."
       ],
       imgCircle: "assets/media/services/service-4.png", // Icon image
-      detailImg: "assets/media/services/physiotherapy-detail.png", // Main image
+      detailImg: "assets/media/services/physiotherapy-detail.webp", // Main image
       advantages: [
         "Reduces pain and improves movement.",
         "Helps in faster post-surgery recovery.",
