@@ -1,12 +1,2 @@
-User-agent: Googlebot
-Disallow: 
-User-agent: googlebot-image
-Disallow: 
-User-agent: googlebot-mobile
-Disallow: 
-User-agent: MSNBot
-Disallow: 
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://gautamhospital.in/sitemap.xml
+Disallow:
