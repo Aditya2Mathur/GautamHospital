@@ -118,34 +118,46 @@
               <div class="appointment-form p-24">
                 <h6 class="color-primary">Contact Form</h6>
                 <h2 class="light-black">Fill Out the Form</h2>
-                <form method="post" action="" id="form" class="form-group contact-form mt-32">
+                <form method="post" action="https://script.google.com/macros/s/AKfycbzvUQpskgJ5uxXcVkOP0ovVv2JBW3BO5MBE5ygPvenFzeER73g6B10cFE-fSRV1A-oB/exec" id="contactForm" class="form-group contact-form mt-32">
                   <div class="row">
                     <div class="col-sm-12">
                       <div class="icon-block mb-24">
                         <label for="first-name" class="mb-4p">Name*</label>
-                        <input type="text" class="form-control" id="first-name" name="name" required
+                        <input type="text" class="form-control" required id="name" minlength="6" maxlength="25" name="name" required
                           placeholder="First Name">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="icon-block mb-24">
-                        <label for="no" class="mb-4p">Number*</label>
-                        <input type="tel" class="form-control" id="no" name="number" required
-                          placeholder="+1 (547) 546 768">
+                        <label for="no" class="mb-4p">Number *</label>
+                        <input type="tel" class="form-control" id="no" required name="number" minlength="10" maxlength="13" required
+                          placeholder="+91 111 222 3333">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="icon-block mb-24">
-                        <label for="eemail" class="mb-4p">Email*</label>
-                        <input type="email" class="form-control" id="eemail" name="email" required
+                        <label for="eemail" class="mb-4p">Email *</label>
+                        <input type="email" class="form-control" id="email" required name="email" required
                           placeholder="email@example.com">
                       </div>
                     </div>
                     <div class="col-sm-12">
                       <div class="icon-block mb-24">
+                        <label for="first-name" class="mb-4p">Subject</label>
+                        <input type="text" class="form-control" required id="subject" name="subject" required
+                          placeholder="Subject">
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="icon-block mb-24">
                         <label for="msg" class="mb-4p">Message</label>
-                        <textarea name="message" class="form-control" id="msg" cols="30" rows="7"
+                        <textarea name="message" class="form-control" id="msg" required cols="30" rows="7"
                           placeholder="Hey there!"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="icon-block mb-24">
+                       <p id="alertMessage" class="mb-32 gray"></p>
                       </div>
                     </div>
                   </div>
@@ -228,8 +240,8 @@
               <a href="/" title="Gautam Hospital – 24/7 Healthcare & Trauma Care in Shahjahanpur"><img src="assets/media/brand-logo.png" alt="Gautam Hospital Shahjahanpur logo" class="mb-32"></a>
               <p class="gray mb-48">Gautam Hospital And Trauma Center, we prioritize your health and well-being, offering trusted and compassionate medical services.</p>
               <h5 class="light-black mb-16">Subscribe to Our Newsletter</h5>
-              <form action="https://uiparadox.co.uk/templates/medicare/v3//" method="post" class="form-group">
-                <input type="email" name="email" id="e_mail" placeholder="email@example.com" class="form-control">
+              <form action="" method="post" class="form-group">
+                <input type="email" name="email" id="e_mail" placeholder="email@example.com" required class="form-control">
                 <button type="submit" class="newsletter-btn">Subscribe</button>
               </form>
             </div>
@@ -276,6 +288,7 @@
   <script src="assets/js/vendor/slick.min.js"></script>
   <script src="assets/js/vendor/jquery-appear.js"></script>
   <script src="assets/js/vendor/jquery-validator.js"></script>
+  <script src="assets/js/form.js"></script>
 
   <!-- Site Scripts -->
   <script src="assets/js/app.js"></script>
