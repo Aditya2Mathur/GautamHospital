@@ -3919,11 +3919,18 @@ footer .footer_social_links {
 }
 
 .testimonials-card .user-image {
-    flex-shrink: 0
+    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .testimonials-card .user-image img {
-    border-radius: 5000px
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .testimonials-card .text-block {
